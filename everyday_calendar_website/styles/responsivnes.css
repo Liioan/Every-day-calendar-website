@@ -1,0 +1,114 @@
+@media screen and (max-width: 1300px) and (min-width: 650px){
+    .months{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: minmax(50px, auto);
+        grid-gap: 30px;
+        text-transform: capitalize;
+    }
+
+    .achilles{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 400px){
+    .months{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: minmax(50px, auto);
+        grid-gap: 30px;
+        text-transform: capitalize;
+    }
+
+    .achilles{
+        font-size: 30px;
+    }
+
+    fieldset{
+        display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: minmax(50px, auto);
+        width: 200px;
+    }
+
+    .info-wrapper{
+        margin-bottom: 100px;
+    }
+
+    .link-to-today{
+        width: 150px;
+    }
+
+    .reset-button{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 200px){
+    .months{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: minmax(50px, auto);
+        grid-gap: 30px;
+        text-transform: capitalize;
+    }
+
+    .achilles{
+        font-size: 20px;
+    }
+
+    fieldset{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: minmax(50px, auto);
+        width: 150px;
+    }
+
+    .score-wrapper{
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .info-wrapper{
+        margin-bottom: 100px;
+    }
+
+    .link-to-today{
+        width: 150px;
+    }
+
+    .reset-button{
+        width: 150px;
+    }
+
+    .day{
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+        border: 1px solid crimson;
+    }
+
+    .unused{
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .checked{
+        border: 1px solid limegreen;
+    }
+
+    h1, h2{
+        font-size: 20px;
+    }
+
+    span{
+        font-weight: normal;
+    }
+
+    .desc{
+        font-size: 20px;
+    }
+
+}

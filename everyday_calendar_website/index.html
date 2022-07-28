@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/8a8c23ad48.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/body.css">
+    <link rel="stylesheet" href="./styles/theme-switch.css">
+    <link rel="stylesheet" href="./styles/months.css">
+    <link rel="stylesheet" href="./styles/responsivnes.css">
+    <title>Every Day Calendar Website</title>
+</head>
+<body>
+    <button class="switch">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </button>
+    
+    
+    <div class="wrapper">
+
+        <div class="title-wrapper" id="top">
+            <h1>Every Day Calendar website</h1>
+            <div class="desc">
+                What is the Every Day Calendar website? It's a project created based on Simone's Giertz product called “Every Day Goal Calendar”. 
+            </div>
+        </div>
+
+        <div class="info-wrapper">
+            <div class="info">
+                <h2>Today is:</h2>
+                <span class="today"></span>
+                <span class="hour"></span>
+                <h2>To the next day left</h2>
+                <span class="hours-left"></span>
+            </div>
+            <a class="link-to-today" href="">To today</a>
+        </div>
+
+        <div class="months-wrapper">
+            <div class="score-wrapper">
+                <fieldset class="finished score-wrapper">
+                    <legend>You kept your goal for:</legend>
+                    <span class="score">0</span>
+                    <span>Days</span>
+                </fieldset>
+            </div>
+            <div class="months">
+                <fieldset id="0">
+                    <legend>january</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+
+                </fieldset>
+                <fieldset id="1">
+                    <legend>february</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="unused">29</button>
+                </fieldset>
+                <fieldset id="2">
+                    <legend>march</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+                <fieldset id="3">
+                    <legend>april</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                </fieldset>
+                <fieldset id="4">
+                    <legend>may</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+                <fieldset id="5">
+                    <legend>june</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+                <fieldset id="6">
+                    <legend>july</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+                <fieldset id="7">
+                    <legend>august</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+                <fieldset id="8">
+                    <legend>september</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                </fieldset>
+                <fieldset id="9">
+                    <legend>october</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+                <fieldset id="10">
+                    <legend>november</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                </fieldset>
+                <fieldset id="11">
+                    <legend>december</legend>
+                        <button class="day">1</button>
+                        <button class="day">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+                        <button class="day">23</button>
+                        <button class="day">24</button>
+                        <button class="day">25</button>
+                        <button class="day">26</button>
+                        <button class="day">27</button>
+                        <button class="day">28</button>
+                        <button class="day">29</button>
+                        <button class="day">30</button>
+                        <button class="day">31</button>
+                </fieldset>
+            </div>
+            <button class="reset-button">reset</button>
+        </div>
+    </div>
+    <br>
+    <div class="achilles">
+        &copy David Bijok, Simone Giertz
+    </div>
+
+    <a href="#top">
+        <div class="scrollToTop">
+            <i class="fa-solid fa-up-long"></i>
+        </div>
+    </a>
+
+
+    <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
+    <script src="./scripts/switch.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/calendar.js"></script>
+    <script src="./scripts/progres.js"></script>
+</body>
+</html>

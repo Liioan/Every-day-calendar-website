@@ -1,0 +1,65 @@
+.months-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.months{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    grid-gap: 30px;
+    text-transform: capitalize;
+}
+
+fieldset{
+    border: 5px solid crimson;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    grid-gap: 10px;
+    width: 450px;
+    height: auto;
+}
+.finished{
+    border: 5px limegreen solid;
+}
+
+.finished legend{
+    color: limegreen;
+}
+
+legend{
+    text-align: center;
+    color: crimson;
+    padding: 30px;
+}
+
+.day{
+    color: white;
+    border: 10px crimson solid;
+    background-color: #440000;
+    transition: 0.2s ease-in-out ;
+}
+
+.unused{
+    border: 10px #4d4d4d solid;
+    background-color: #252525;
+    cursor: context-menu;
+}
+
+.day:hover{
+    box-shadow: 0px 0px 20px 5px crimson;
+}
+
+.checked{
+    border: 10px limegreen solid;
+    background-color: darkgreen;
+}
+
+.checked:hover{
+    box-shadow: 0px 0px 20px 5px limegreen;
+}
