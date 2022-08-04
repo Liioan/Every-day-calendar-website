@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F0F0F0;
+    color: #222222;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+
+.dark-theme{
+    background-color: #222222; 
+    color: white;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.title-wrapper, .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 60vh;
+}
+
+.score-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: limegreen;
+}
+
+span{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+h1, .desc{
+    text-align: center;
+}
+
+.desc{
+    width: 60vw;
+}
+
+a{
+    color: inherit;
+}
+
+.link-to-today{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    width: 30vw;
+    background-color: #00CD90;
+    border: 5px solid #00FFB2;
+    border-radius: 100px;
+}
+
+.link-to-today:hover, .reset-button:hover{
+    box-shadow: 0px 0px 20px 5px #00FFB2;
+}
+
+.reset-button{
+    width: 300px;
+    background-color: #00CD90;
+    border: 5px solid #00FFB2;
+    height: 70px;
+}
+
+.achilles{
+    font-size: 50px;
+    opacity: 0.1;
+}
+
+.achilles:hover{
+    opacity: 1;
+}
+
+.scrollToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00CD90;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.scrollToTop:hover{
+    box-shadow: 0px 0px 20px 5px #00FFB2;
+}

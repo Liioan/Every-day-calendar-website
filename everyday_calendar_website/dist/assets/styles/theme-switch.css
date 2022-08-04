@@ -1,0 +1,27 @@
+.switch{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: none;
+    color: #a0a0a0;
+}
+
+.switch:hover{
+    color: black;
+}
+.dark-switch{
+    color: #444444;
+}
+
+.dark-switch:hover{
+    color: white;
+}
+
+i{
+    position: relative;
+    top: 0;
+    left: 0;
+}
